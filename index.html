@@ -21,42 +21,39 @@
     - The freeCodeCamp Team
 
     -->
+
+    <!--User Story 1-->
     <h1 id="title">Microverse Survey Form</h1>
+
+    <!--User Story 2-->
   <p id="description">
-    Thank you for taking the time to help us improve the platform
+    Fill Your Details to Join in the Microverse Upcoming Bootcamp
   </p>
-</header>
-<form id="survey-form">      
-    <label id="name-label" for="name">Name</label>
-    <input
-      type="text"
-      name="name"
-      id="name"          
-      placeholder="Enter your name"       
-    /><br>
+
+   <!--User Story 3 & 4-->
+<form id="survey-form">
+
+    <label id="name-label" for="name">Name : </label>
+    <input type="text" name="name" id="name" placeholder="Microverse Bootcamper" required><br>             
+             
+     
+
+    <!--User Story 5 -->
+
+    <label for="email" id="email-label">Email</label>
+    <input type="email" name="email" id="email" placeholder="Enter your Email" required  /> <br>
+      
+   
+    <!--User Story 5 , 6, 7 ,8, 9 & 10-->
+
+    <label for="number" id="number-label">Age<span class="clue">(optional)</span></label>
+    <input id="number" type="number" min="20" max="99" placeholder="Age"/><br>  
 
 
-    <label id="email-label" for="email">Email</label>
-    <input
-      type="email"
-      name="email"
-      id="email"         
-      placeholder="Enter your Email"
-      required
-    /> <br>
-
-    <label id="number-label" for="number"
-      >Age<span class="clue">(optional)</span></label
-    >
-    <input          
-      id="number"
-      min="10"
-      max="99"
-      placeholder="Age"
-    /><br>
-
-  <div class="form-group">
-    <p>Which option best describes your current role?</p>
+    <!--User Story 11 -->
+            
+   <div class="form-group">
+    <p>Which option best describes your current Position?</p>
     <select id="dropdown" name="role" class="form-control" required>
       <option disabled selected value>Select current role</option>
       <option value="student">Student</option>
